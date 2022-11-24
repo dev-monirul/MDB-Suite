@@ -1,0 +1,192 @@
+.product-details-wrapper .section-title h1 {
+    border-bottom: 0;
+}
+.product-details-wrapper .section-title p {
+    font-size: 18px;
+    font-weight: 300;
+    font-family: var(--Mulish-font);
+}
+
+.productos-dual-btn a {
+    width: auto;
+    min-width: 220px;
+}
+
+a.hard-icon {
+    border: 0;
+}
+
+a.hard-icon img {
+    max-width: 16px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: auto;
+}
+
+
+.products-details-tab ul {
+    justify-content: space-between;
+    padding: 30px;
+}
+
+.products-details-tab ul li a {
+    text-transform: uppercase;
+    font-size: 21px;
+    font-weight: 400;
+    color: #171517;
+}
+
+.products-details-tab ul li a.active {
+    text-decoration: underline;
+}
+
+.products-details-tab div#myTabContent p, .products-details-tab div#myTabContent h5, .products-details-tab div#myTabContent ul li {
+    font-size: 18px;
+    font-weight: 300;
+    margin-bottom: 30px !important;
+    font-family: var(--Mulish-font);
+}
+.products-details-tab div#myTabContent ul li {
+    margin-bottom: auto !important;
+    line-height: 1.7;
+}
+.products-details-tab div#myTabContent ul{
+    padding: 0;
+}
+
+.products-details-tab div#myTabContent ul{
+    padding-left: 35px;
+}
+
+.products-details-tab div#myTabContent h5{
+    margin-bottom: 10px !important;
+    margin-top: 30px;
+
+}
+
+
+.products-details-tab .nav-tabs{
+    border: 0;
+}
+
+
+.pueden-interesar-wrapper.owl-carousel .owl-stage{display: flex;}
+.productos-wrapper-area.border .section-title h2 {
+    font-size: 36px;
+    text-transform: capitalize;
+    font-weight: 500;
+}
+
+
+#añadido-modal .modal-dialog {
+    width: 100% !important;
+    max-width: 100%;
+    height: 70vh;
+    margin: 0;
+}
+#añadido-modal .modal-dialog-scrollable {
+    min-height: calc(70% - 3.5rem);
+}
+.añadido-popup-left img {
+    max-width: 90px;
+}
+
+.añadido-popup-left {
+    gap: 30px;
+}
+
+.añadido-popup-left h4 a {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    color: #030303;
+    text-decoration: underline;
+    font-family: var(--Raleway-font);
+}
+
+#añadido-modal .section-title h3 {
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+#añadido-modal .productos-popup-content-right{
+    padding-top: 0;
+}
+
+#añadido-modal .productos-popup-content-right h4 {
+    text-transform: capitalize;
+    font-weight: 500;
+}
+#añadido-modal .productos-popup-content-right a.boxed-btn {
+    min-width: 234px;
+}
+.price-subtotal h4, .price-subtotal .price {
+    margin: 0;
+}
+
+.price-subtotal h4{
+   color: #959393;
+}
+.price-subtotal {
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+
+#añadido-modal .productos-popup-content-right {
+    position: relative;
+    padding-left: 58px;
+    display: inline-block;
+}
+
+#añadido-modal .productos-popup-content-right:before {
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 0;
+    width: 1px;
+    height: 100%;
+    background: #707070;
+}
+
+@media(max-width:768px){
+    .products-details-tab .accordion-header button {
+        text-transform: uppercase;
+        font-weight: 600;
+        font-size: 21px;
+        color: #171517;
+        font-family: "Prompt", sans-serif;
+    }
+    .products-details-tab .accordion-body {
+        font-size: 18px;
+        font-weight: 300;
+        color: #171517;
+        line-height: 1.5;
+        width: 100%;
+        font-family: var(--Mulish-font);
+    }
+    .products-details-tab .accordion-body p, .products-details-tab .accordion-body ul {
+       margin-bottom: 15px !important;
+    }
+    .products-details-tab .accordion-body h5{
+        margin-bottom: 15px;
+        font-size: 18px;
+        font-family: var(--Mulish-font);
+    }
+
+    .products-details-tab .accordion-item {
+        margin-bottom: 0px;
+        border: 0;
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+
+.productos-popup-content-right.ficha_popup_description {
+    padding-right: 0;
+}
+.ficha-producto-discription_accordion {
+    border-top: 1px solid #707070;
+    border-bottom: 1px solid #707070;
+}
